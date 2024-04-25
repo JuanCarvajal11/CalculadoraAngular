@@ -1,0 +1,48 @@
+<table class="calculadora">
+  <tr>
+    <td colspan="5"><span class="resultado">{{numerosIngresados}}</span></td>
+  </tr>
+  <tr>
+    <td><button (click)="agregarCaracter('√')">√ </button></td>
+    <td><button (click)="agregarCaracter('^')">x^</button></td>
+    <td><button (click)="agregarCaracter('s')">sin</button></td>
+    <td><button (click)="agregarCaracter('c')">cos</button></td>
+    <td><button (click)="agregarCaracter('t')">tan</button></td>
+  </tr>
+  <tr>
+    <td><button (click)="agregarCaracter('(')">(</button></td>
+    <td><button (click)="agregarCaracter(')')">)</button></td>
+    <td><button (click)="agregarCaracter('²')">x^2</button></td>
+    <td><button (click)="agregarCaracter('³')">x^3</button></td>
+    <td><button (click)="agregarCaracter('L')">Log</button></td>
+  </tr>
+  <tr>
+    <td><button (click)="agregarCaracter('7')">7</button></td>
+    <td><button (click)="agregarCaracter('8')">8</button></td>
+    <td><button (click)="agregarCaracter('9')">9</button></td>
+    <td><button (click)="eliminarCaracter()">DEL</button></td>
+    <td><button (click)="eliminarTodo()">AC</button></td>
+
+  </tr>
+  <tr>
+    <td><button (click)="agregarCaracter('4')">4</button></td>
+    <td><button (click)="agregarCaracter('5')">5</button></td>
+    <td><button (click)="agregarCaracter('6')">6</button></td>
+    <td><button (click)="agregarCaracter('*')">*</button></td>
+    <td><button (click)="agregarCaracter('÷')">÷</button></td>
+  </tr>
+  <tr>
+    <td><button (click)="agregarCaracter('1')">1</button></td>
+    <td><button (click)="agregarCaracter('2')">2</button></td>
+    <td><button (click)="agregarCaracter('3')">3</button></td>
+    <td><button (click)="agregarCaracter('+')">+</button></td>
+    <td><button (click)="agregarCaracter('-')">-</button></td>
+  </tr>
+  <tr>
+    <td><button (click)="agregarCaracter('0')">0</button></td>
+    <td><button (click)="agregarCaracter('.')">.</button></td>
+    <td><button (click)="agregarCaracter('E')">EXP</button></td>
+    <td><button (click)="ulResultado()">Ans</button></td>
+    <td><button (click)="operar()">=</button></td>
+  </tr>
+</table>
