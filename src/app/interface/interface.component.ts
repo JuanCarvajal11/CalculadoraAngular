@@ -150,15 +150,6 @@ export class InterfaceComponent implements OnInit {
 
     if (operador === 'L') {
     }
-    if (operador === '²') {
-      if (num2 == '') {
-        const resultado = +num1 * +num1;
-        this.numerosIngresados += ' = ' + resultado;
-        this.ultimoResultado = resultado + '';
-      } else {
-        this.numerosIngresados = 'Sintax Error';
-      }
-    }
 
     if (operador === '²') {
       if (num2 == '') {
