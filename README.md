@@ -50,6 +50,11 @@ Ejecute `ng build` para construir el proyecto. Los artefactos de compilación se
 
 ## Ejecución de pruebas unitarias
 
-Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma] (https://karma-runner.github.io).
+Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
 
 ## Ejecución de pruebas de un extremo a otro
+Ejecute `ng e2e` para ejecutar las pruebas de un extremo a otro a través de una plataforma de su elección. Para utilizar este comando, primero debe agregar un paquete que implemente capacidades de prueba de un extremo a otro.
+
+## Más ayuda
+
+Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte la página [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
